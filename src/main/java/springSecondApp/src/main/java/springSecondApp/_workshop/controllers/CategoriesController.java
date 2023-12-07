@@ -34,7 +34,6 @@ public class CategoriesController {
 
 
 
-
     @PutMapping
     public String update(@RequestBody Category updatedCategory){
         Category category = inCategoriesList
