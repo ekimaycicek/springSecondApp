@@ -66,6 +66,7 @@ case "$(uname)" in
         JAVA_HOME="/Library/Java/Home"; export JAVA_HOME
       fi
     fi
+
     ;;
 esac
 
