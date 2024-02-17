@@ -201,7 +201,6 @@ else
 
 
 
-
     while IFS="=" read -r key value; do
       # Remove '\r' from value to allow usage on windows as IFS does not consider '\r' as a separator ( considers space, tab, new line ('\n'), and custom '=' )
       safeValue=$(echo "$value" | tr -d '\r')
