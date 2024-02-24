@@ -16,7 +16,6 @@ public class CategoriesController {
         return inCategoriesList;
     }
 
-
     @GetMapping("{id}")
     public Category getById(@PathVariable int id){
         Category category = inCategoriesList.stream().filter((p) -> p.getId() == id).findFirst().orElseThrow();
