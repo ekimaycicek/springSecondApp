@@ -26,6 +26,8 @@ public class CategoriesController {
         inCategoriesList.add(category);
         return category.getId()+" ID' li kategori sisteme eklendi.";
     }
+
+
     @PutMapping
     public String update(@RequestBody Category updatedCategory){
         Category category = inCategoriesList
