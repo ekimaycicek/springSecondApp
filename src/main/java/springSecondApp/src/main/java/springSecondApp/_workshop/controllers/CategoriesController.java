@@ -16,7 +16,6 @@ public class CategoriesController {
 
 
 
-
         return inCategoriesList;
     }
     @GetMapping("{id}")
