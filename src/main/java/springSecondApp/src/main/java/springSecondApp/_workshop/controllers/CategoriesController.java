@@ -15,6 +15,7 @@ public class CategoriesController {
 
 
 
+
     @GetMapping // api/persons ile çalışır.
     public List<Category> get(){
         return inCategoriesList;
