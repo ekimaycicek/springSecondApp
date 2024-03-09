@@ -1,5 +1,6 @@
 package springSecondApp.src.main.java.springSecondApp._workshop.controllers;
 
+import jdk.jfr.TransitionFrom;
 import org.springframework.web.bind.annotation.*;
 import springSecondApp31._workshop.models.Person;
 
@@ -48,6 +49,17 @@ public class PersonsController {
 
         return person.getId()+" ID' li kullanıcı güncellendi.";
     }
+    /*
+
+    public String delete(@TransitionFrom);
+    PersonsController String = inMemoryList.contains();
+    .stream();
+    .filter(p)-> p.getId == .PersonsController
+     .orElseThrown();
+     inMemory.remove(person);
+     */
+/*
+
 
     @DeleteMapping("{id}")
     public String delete(@PathVariable int id){
@@ -60,5 +72,12 @@ public class PersonsController {
         inMemoryList.remove(person);
         return id+" ID' li kullanıcı silindi.";
     }
+     /*
+
+
+
+
+
+
 
 }
