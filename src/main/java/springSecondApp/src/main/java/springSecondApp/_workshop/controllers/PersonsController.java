@@ -49,6 +49,7 @@ public class PersonsController {
         return person.getId()+" ID' li kullanıcı güncellendi.";
     }
 
+
     @DeleteMapping("{id}")
     public String delete(@PathVariable int id){
         Person person = inMemoryList
