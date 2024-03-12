@@ -43,7 +43,6 @@ public class CategoriesController {
 
 
 
-
     @DeleteMapping("{id}")
     public String delete(@PathVariable int id){
         Category category = inCategoriesList
