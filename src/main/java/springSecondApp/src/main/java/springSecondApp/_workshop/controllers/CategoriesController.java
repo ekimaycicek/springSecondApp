@@ -39,6 +39,7 @@ public class CategoriesController {
 
         return category.getId()+" ID' li kategori güncellendi.";
     }
+
     @DeleteMapping("{id}")
     public String delete(@PathVariable int id){
         Category category = inCategoriesList
